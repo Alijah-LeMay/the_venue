@@ -1,0 +1,123 @@
+/*====================
+        CONSTANTS
+======================*/
+:root {
+  --main-color: #3939ac;
+  --darker-main-color: #2d2d86;
+  --secondary-color: #00b33c;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font_righteous {
+  font-family: 'Righteous', cursive;
+}
+
+.bck_black {
+  background: #3c3c3c;
+}
+.bck_white {
+  background: #ffffff;
+}
+.bck_red {
+  background: var(--main-color);
+}
+.bck_yellow {
+  background: var(--secondary-color);
+}
+
+.iconImage {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.center_wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+/*====================
+        CARROUSEL
+======================*/
+
+.carrousel_wrapper {
+  height: 700px;
+  overflow: hidden;
+}
+
+.carrousel_image {
+  background-size: cover !important;
+}
+
+.artist_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 160px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 2px solid white;
+}
+
+.artist_name .wrapper {
+  border: 2px solid white;
+  height: 121px;
+  margin: 6px;
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding: 21px 70px 0px 70px;
+  text-transform: uppercase;
+}
+@media (max-width: 700px) {
+}
+
+/*====================
+        COUNTDOWN
+======================*/
+
+.countdown_wrapper {
+  position: absolute;
+  bottom: 0px;
+  color: #ffffff;
+}
+
+.countdown_wrapper .countdown_top {
+  background: var(--main-color);
+  font-size: 19px;
+  padding: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.countdown_wrapper .countdown_bottom {
+  display: flex;
+  background: var(--darker-main-color);
+  padding: 10px 20px;
+}
+
+.countdown_wrapper .countdown_time {
+  font-size: 70px;
+  border-right: 1px solid var(--main-color);
+  margin-right: 14px;
+  padding-right: 49px;
+}
+.countdown_wrapper .countdown_item:last-child .countdown_time {
+  border: none;
+}
+
+.countdown_wrapper .countdown_tag {
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-left: 7px;
+}
+@media (max-width: 700px) {
+  .countdown_wrapper .countdown_time {
+    font-size: 60px;
+    margin-right: 10px;
+    padding-right: 30px;
+  }
+}

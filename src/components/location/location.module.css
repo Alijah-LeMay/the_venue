@@ -1,0 +1,59 @@
+/*====================
+        CONSTANTS
+======================*/
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font_righteous {
+  font-family: 'Righteous', cursive;
+}
+
+.bck_black {
+  background: #3c3c3c;
+}
+.bck_white {
+  background: #ffffff;
+}
+.bck_red {
+  background: #ff4800;
+}
+.bck_yellow {
+  background: #ffa800;
+}
+
+.iconImage {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.center_wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+/*====================
+        LOCATION    
+======================*/
+
+.location_wrapper {
+  position: relative;
+}
+
+.location_tag {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.location_tag div {
+  background: #2c2c2c;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 220px;
+  margin: 0 auto;
+  font-size: 29px;
+  padding: 15px 20px;
+  text-align: center;
+}
