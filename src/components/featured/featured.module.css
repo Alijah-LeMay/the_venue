@@ -72,8 +72,6 @@ body {
   padding: 21px 70px 0px 70px;
   text-transform: uppercase;
 }
-@media (max-width: 700px) {
-}
 
 /*====================
         COUNTDOWN
@@ -108,6 +106,7 @@ body {
 }
 .countdown_wrapper .countdown_item:last-child .countdown_time {
   border: none;
+  padding-right: 10px;
 }
 
 .countdown_wrapper .countdown_tag {
@@ -120,5 +119,17 @@ body {
     font-size: 60px;
     margin-right: 10px;
     padding-right: 30px;
+  }
+}
+@media (max-width: 475px) {
+  .countdown_wrapper .countdown_time {
+    font-size: 45px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 375px) {
+  .countdown_wrapper .countdown_time {
+    font-size: 35px;
+    padding-right: 20px;
   }
 }
