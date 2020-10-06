@@ -13,11 +13,15 @@ const VenueInfo = () => {
             <div className={classes.vn_item}>
               <div className={classes.vn_outer}>
                 <div className={classes.vn_inner}>
-                  <div className={classes.vn_icon_square_bck_red}></div>
-                  <div
-                    className={classes.vn_icon}
-                    style={{ background: `url(${icon_calendar})` }}
-                  ></div>
+                  <div className={classes.icon_offset}>
+                    <div className={classes.vn_icon_square_bck_red}></div>
+                  </div>
+                  <div className={classes.icon_inner_offset}>
+                    <div
+                      className={classes.vn_icon}
+                      style={{ background: `url(${icon_calendar})` }}
+                    ></div>
+                  </div>
                   <div className={classes.vn_title}>Event Date & Time</div>
                   <div className={classes.vn_desc}>5 November 2020</div>
                 </div>
@@ -28,11 +32,15 @@ const VenueInfo = () => {
             <div className={classes.vn_item}>
               <div className={classes.vn_outer}>
                 <div className={classes.vn_inner}>
-                  <div className={classes.vn_icon_square_bck_yellow}></div>
-                  <div
-                    className={classes.vn_icon}
-                    style={{ background: `url(${icon_location})` }}
-                  ></div>
+                  <div className={classes.icon_offset}>
+                    <div className={classes.vn_icon_square_bck_yellow}></div>
+                  </div>
+                  <div className={classes.icon_inner_offset}>
+                    <div
+                      className={classes.vn_icon}
+                      style={{ background: `url(${icon_location})` }}
+                    ></div>
+                  </div>
                   <div className={classes.vn_title}>Event Location</div>
                   <div className={classes.vn_desc}>The Moon</div>
                 </div>

@@ -84,7 +84,7 @@ body {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   top: -54px;
-  left: 35%;
+  left: -50px;
 }
 .vn_item .vn_icon_square_bck_red {
   background: var(--main-color);
@@ -95,7 +95,11 @@ body {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
   top: -54px;
-  left: 35%;
+  left: -50px;
+}
+.icon_offset {
+  position: absolute;
+  left: 50%;
 }
 
 .vn_item .vn_icon {
@@ -105,7 +109,11 @@ body {
   background-repeat: no-repeat !important;
   position: absolute;
   top: -30px;
-  left: 42.5%;
+  left: -25px;
+}
+.icon_inner_offset {
+  position: absolute;
+  left: 50%;
 }
 
 .vn_item .vn_title {

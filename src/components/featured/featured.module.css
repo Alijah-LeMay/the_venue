@@ -83,6 +83,7 @@ body {
   position: absolute;
   bottom: 0px;
   color: #ffffff;
+  overflow: hidden;
 }
 
 .countdown_wrapper .countdown_top {
