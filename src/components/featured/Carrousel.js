@@ -7,6 +7,7 @@ import classes from './featured.module.css';
 const Carrousel = () => {
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     autoplay: true,
     speed: 500,
