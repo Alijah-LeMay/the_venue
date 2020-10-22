@@ -11,7 +11,7 @@ const Footer = () => {
         <div className={classes.footer_copyright}>
           &copy;{' '}
           <a className={classes.link} href='//thewebdev.net' target='_blank'>
-            LemaTech
+            LemaTech LLC
           </a>{' '}
           2020.
         </div>
